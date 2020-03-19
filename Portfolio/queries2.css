@@ -1,0 +1,134 @@
+/*from 1024px to 1200px*/
+@media only screen and (max-width: 1200px) {
+  .logo-main {
+    height: 95px;
+    margin-left: 20px;
+  }
+
+  .row {
+    padding: 0 5%;
+  }
+
+  .header2 {
+    width: 100%;
+    height: 110vh;
+  }
+
+  .title-info {
+    font-size: 85%;
+  }
+
+  .ruse-img {
+    width: 95%;
+  }
+
+  .varna-img {
+    width: 95%;
+  }
+}
+
+/*from 768 to 1023px*/
+@media only screen and (max-width: 1023px) {
+  .header2 {
+    padding-left: 8%;
+    font-size: 90%;
+  }
+
+  .logo-main {
+    height: 70px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .owner-footer {
+    padding-right: 7%;
+  }
+
+  .footer-number {
+    padding-right: 5%;
+  }
+
+  .ion-social-twitter {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+
+  .ion-social-facebook {
+    font-size: 20px;
+  }
+
+  .ion-social-googleplus {
+    font-size: 20px;
+  }
+}
+
+/*from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+  .col {
+    width: 100%;
+    margin: 0% 0 4% 0%;
+  }
+
+  .ruse-img {
+    width: 85%;
+  }
+
+  .varna-img {
+    width: 85%;
+  }
+
+  .header2 {
+    font-size: 75%;
+    padding-right: 3%;
+  }
+
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    float: none;
+    position: absolute;
+    z-index: 8888;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    margin-left: -2%;
+    background-color: rgba(62, 136, 139, 0.92);
+    text-align: center;
+    padding-top: 20vh;
+  }
+
+  .main-nav li {
+    display: block;
+    margin-right: 40%;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    .header2 {
+      font-size: 50%;
+    }
+
+    .personal__info {
+      font-size: 70%;
+    }
+  }
+}
