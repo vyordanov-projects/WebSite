@@ -6,30 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About me</title>
 
-    <link rel="stylesheet" href="/assets/css/normalize.css">
-    <link rel="stylesheet" href="/assets/css/grid.css">
-    <link rel="stylesheet" href="/assets/css/ionicons.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href"assets/css/ionicons.min.css"> <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 
   </head>
 
   <body>
-    <header class="header">
+    <?php include 'includes/header.php';?>
 
-      <div class="row">
-        <img src="/assets/images/logo1.png" alt="My logo" class="logo-main">
-        <ul class="main-nav js--main-nav">
-          <li class="nu"><a href="/portfolio.html">My Portfolio</a></li>
-          <li class="aim"><a href="/about_me.html">About me</a></li>
-          <li><a href="/index.html">Home</a></li>
-        </ul>
-        <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
-      </div>
-      <div class="title-info">
-        <h1> Hello everyone, My name is Vladislav <br> and I am going to tell you something <br> about myself.</h1>
-      </div>
-    </header>
+
+    <div class="title-info">
+          <h1> Hello everyone, My name is Vladislav <br> and I am going to tell you something <br> about myself.</h1>
+        </div>
+      </header>
     <!--Section 1 -->
 
     <section class="personal__info">
@@ -67,26 +57,7 @@
       </div>
 
     </section>
-    <footer class="footer">
-      <div class="row footer-nav">
-        <div class="col span-1-of-4 owner-footer">
-          <p class="owner-name">Copyright &copy; 2020 by Vladislav Yordanov All rights reserved.</p>
-        </div>
-        <div class="col span-1-of-4 footer-number">
-          <p>For more info: Please call <span class="number"> <a href="#">&#43;359895242451</a></span></p>
-        </div>
-        <div class="col span-1-of-4">
-          <p class="email-p">Or send an email to <span class="email">vladislavyordanov86 <br> @gmail.com</span></p>
-        </div>
-        <div class="col span-1-of-4">
-          <ul class="social-links js--main-nav">
-            <li> <a href="#"><i class="ion-social-twitter"></i></a></li>
-            <li> <a href="#"><i class="ion-social-facebook"></i></a></li>
-            <li> <a href="#"><i class="ion-social-googleplus"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+  <?php include 'includes/footer.php';?>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>

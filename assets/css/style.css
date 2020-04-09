@@ -19,7 +19,7 @@ html, body {
 
 /*HEADER SECTION*/
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/portfolio2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(assets/images/portfolio2.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -131,7 +131,7 @@ h2::after {
 
 /*Second html page formatting*/
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/portfolio1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/images/portfolio1.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -222,7 +222,7 @@ h2::after {
 
 /*Third page portfolio formatting*/
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/portfolio3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/portfolio3.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -230,7 +230,7 @@ h2::after {
 }
 
 .section-3 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/skills.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/skills.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -294,7 +294,7 @@ h2::after {
 }
 
 .section-4 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/assets/images/experience.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/experience.jpg);
   background-size: cover;
   height: 200vh;
   background-position: center;
