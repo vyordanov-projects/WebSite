@@ -490,6 +490,7 @@ h2::after {
     background-color: rgba(62, 136, 139, 0.92);
     text-align: center;
     padding-top: 20vh;
+    display: none;
   }
 
   .main-nav li {
