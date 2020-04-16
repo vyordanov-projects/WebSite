@@ -13,21 +13,10 @@
   </head>
 
   <body>
-  <?php include 'includes/header.php';?>
-
-  <div class="row title-info">
-        <h1>I am Vladislav Yordanov</h1>
-      </div>
-      <div class="row small-h">
-        <h3>A Future Web Developer</h3>
-      </div>
-      <div class="row par-1">
-        Nam mollis eleifend quam, at ultricies lorem tincidunt at. Proin in lobortis leo. Pellentesque viverra condimentum pharetra.
-        Sed ipsum neque, dictum a rhoncus quis, dictum lacinia neque. Integer quis dolor id arcu eleifend efficitur vel et mauris.
-        Fusce sapien nibh, venenatis eget volutpat et, elementum sed ipsum. Morbi tristique mauris in sodales venenatis. Duis mollis
-        nisl et posuere porttitor.
-      </div>
-    </header>
+    <?php
+    include 'includes/header.php';
+    showHeader($pageName);
+    ?>
     <section class="section-3">
       <div class="row title-info">
         <h1>Beginner</h1>

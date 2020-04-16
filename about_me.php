@@ -14,13 +14,11 @@
   </head>
 
   <body>
-    <?php include 'includes/header.php';?>
+    <?php include 'includes/header.php';
 
+    showHeader($pageName);
+?>
 
-
-    <div class="title-info">
-          <h1> Hello everyone, My name is Vladislav <br> and I am going to tell you something <br> about myself.</h1>
-        </div>
       </header>
     <!--Section 1 -->
 
